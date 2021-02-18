@@ -22,4 +22,17 @@ public class BasicCalculator {
         return number1 * number2;
     }
 
+    public float division(Long number1, Long number2) {
+        logger.info( "Summing {} / {}", number1, number2 );
+        try{
+
+            return number1 / number2;
+        }
+        catch (ArithmeticException e){
+
+            logger.error("Division by zero is not allowed");
+            return 0;
+        }
+    }
+
 }
