@@ -34,17 +34,17 @@ public class App
 
         System.out.println( number1 + " + " + number2 + " = " + sum );
 
-        Long resta = calculator.sum( number1, number2 );
+        Long resta = calculator.resta( number1, number2 );
 
-        System.out.println( number1 + " + " + number2 + " = " + resta );
+        System.out.println( number1 + " - " + number2 + " = " + resta );
 
-        Long multiplicacion = calculator.sum( number1, number2 );
+        Long multiplicacion = calculator.multiplicacion( number1, number2 );
 
-        System.out.println( number1 + " + " + number2 + " = " + multiplicacion );
+        System.out.println( number1 + " * " + number2 + " = " + multiplicacion );
 
-        Long division = calculator.sum( number1, number2 );
+        Long division = calculator.division( number1, number2 );
 
-        System.out.println( number1 + " + " + number2 + " = " + division );
+        System.out.println( number1 + " / " + number2 + " = " + division );
 
     }
 }
